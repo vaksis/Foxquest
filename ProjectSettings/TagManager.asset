@@ -47,6 +47,9 @@ TagManager:
   - name: 'MiddleGround '
     uniqueID: 3981021297
     locked: 0
+  - name: Props
+    uniqueID: 718174817
+    locked: 0
   - name: Player
     uniqueID: 2154896687
     locked: 0
