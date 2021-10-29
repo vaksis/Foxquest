@@ -62,6 +62,11 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (rb.transform.position.y < -10)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+
         //===========MOVEMENT===========
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
         // oikea nuoli = 1, vasen nuoli = -1

@@ -8,12 +8,13 @@ public class SceneHandler : MonoBehaviour
     //==========Load new level============
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("World1-1");
     }
 
     //==========Application shutdown============
     public void ClickExit()
     {
         Application.Quit();
+        Debug.Log("Game Exit");
     }
 }

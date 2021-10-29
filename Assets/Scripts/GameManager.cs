@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         //Instantiate(player);
+        //Instantiate(enemy);
+
     }
 
     // Update is called once per frame
