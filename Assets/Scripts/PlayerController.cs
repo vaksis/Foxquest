@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/**
+ * Summary 4.11.2021
+ *
+ * PlayerController.cs is a player controller wich
+ * controls all the variables that player does.
+ *
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -24,6 +32,9 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float checkRadius;
     public LayerMask whatIsGround;
+
+    //===========SCORE===========
+    public int score;
 
     // Start is called before the first frame update
     void Start()
@@ -89,9 +100,20 @@ public class PlayerController : MonoBehaviour
     //===========On collision enter 2D===========
     void OnTriggerEnter2D(Collider2D col)
     {
+        //Loads new level when player collides with object tag "House"
         if (col.gameObject.tag == "House")
         {
             SceneManager.LoadScene("lvlClear");
+        }
+
+
+        //Collect score when player collides with object tag "Diamond"
+        if (col.gameObject.tag == "Diamond")
+        {
+            // kasvata pisteitä yhdellä
+            Debug.Log("score: " + score);
+            // poista törmätty objekti
+            col.gameObject.SetActive(false);
         }
     }
 }
