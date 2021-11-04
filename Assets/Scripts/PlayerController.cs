@@ -6,10 +6,12 @@
  *
  */
 
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class PlayerController : MonoBehaviour
@@ -35,6 +37,7 @@ public class PlayerController : MonoBehaviour
 
     //===========SCORE===========
     public int score;
+    public Text txtScore;
 
     // Start is called before the first frame update
     void Start()
@@ -112,8 +115,9 @@ public class PlayerController : MonoBehaviour
         {
             // kasvata pisteitä yhdellä
             Debug.Log("score: " + score);
-            // poista törmätty objekti
+            txtScore.text = "Pisteet:" + score; 
             col.gameObject.SetActive(false);
+            score++;
         }
     }
 }
