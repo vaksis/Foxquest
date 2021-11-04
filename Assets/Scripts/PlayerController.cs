@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 
 public class PlayerController : MonoBehaviour
@@ -37,7 +38,7 @@ public class PlayerController : MonoBehaviour
 
     //===========SCORE===========
     public int score;
-    public Text txtScore;
+    public TextMeshProUGUI txtScore;
 
     // Start is called before the first frame update
     void Start()
