@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿/**
+ * Summary 9.11.2021
+ * 
+ * EnemyController.cs is a enemy controller for all kind of enemies.
+ * 
+ *
+ **/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
