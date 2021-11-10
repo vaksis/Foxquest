@@ -12,8 +12,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using TMPro;
-
 
 public class PlayerController : MonoBehaviour
 {
@@ -37,8 +35,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
 
     //===========SCORE===========
-    public int score;
-    public TextMeshProUGUI txtScore;
+    public int score = 0;
+    public Text txtScore;
 
     // Start is called before the first frame update
     void Start()
@@ -116,7 +114,7 @@ public class PlayerController : MonoBehaviour
         {
             // kasvata pisteitä yhdellä
             Debug.Log("score: " + score);
-            txtScore.text = "Pisteet:" + score; 
+            txtScore.text = ": " + score; 
             col.gameObject.SetActive(false);
             score++;
         }
