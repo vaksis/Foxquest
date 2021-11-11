@@ -1,10 +1,10 @@
-﻿/**
+﻿/**********************************************
  * Summary 4.11.2021
  *
  * PlayerController.cs is a player controller wich
  * controls all the variables that player does.
  *
- */
+ *************************************************/
 
 
 using System.Collections;
