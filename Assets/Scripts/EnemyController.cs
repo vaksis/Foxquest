@@ -19,6 +19,9 @@ public class EnemyController : MonoBehaviour
     public float agroRange;
     public float speed;
 
+    private bool facingLeft = true;
+
+
     Rigidbody2D rigidbody2D;
 
 
@@ -27,6 +30,15 @@ public class EnemyController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         gamecontroller = GameObject.Find("GameManager").GetComponent<GameManager>();
         target = GameObject.Find("Player").GetComponent<Transform>();
+    }
+
+    void Flip()
+    {
+        //===========FLIP THE PLAYERMODEL===========
+        facingLeft = !facingLeft;
+        Vector3 Scaler = transform.localScale;
+        Scaler.x = Scaler.x * -1;
+        transform.localScale = Scaler;
     }
 
     // Update is called once per frame

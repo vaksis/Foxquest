@@ -15110,12 +15110,17 @@ PrefabInstance:
     - target: {fileID: 356492339995693078, guid: ed7c6763922604d4d8ff0b54a5cb2058,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 356492339995693079, guid: ed7c6763922604d4d8ff0b54a5cb2058,
-        type: 3}
-      propertyPath: m_Simulated
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 356492339995693078, guid: ed7c6763922604d4d8ff0b54a5cb2058,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 356492339995693078, guid: ed7c6763922604d4d8ff0b54a5cb2058,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.41
       objectReference: {fileID: 0}
     - target: {fileID: 356492339995693080, guid: ed7c6763922604d4d8ff0b54a5cb2058,
         type: 3}
