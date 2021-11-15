@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - player: {fileID: 2393714360457610481, guid: 2f16825320f4cc84096767cd01022449,
       type: 3}
-  - enemy: {instanceID: 0}
+  - enemy: {fileID: 356492339995693081, guid: ed7c6763922604d4d8ff0b54a5cb2058, type: 3}
   - health: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}

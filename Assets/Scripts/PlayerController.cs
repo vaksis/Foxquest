@@ -109,6 +109,12 @@ public class PlayerController : MonoBehaviour
         }
 
 
+        if(col.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene("GameOver");
+        }
+
+
         //Collect score when player collides with object tag "Diamond"
         if (col.gameObject.tag == "Diamond")
         {

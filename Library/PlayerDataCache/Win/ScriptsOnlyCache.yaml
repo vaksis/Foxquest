@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - EnemyController
     - GameManager
     - PlayerController
     - SceneHandler
@@ -11,6 +12,7 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
@@ -217,6 +219,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13440}
     - Class: 114
       Script: {instanceID: 13468}
+    - Class: 114
+      Script: {instanceID: 13516}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1033,10 +1037,16 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Scroll
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/World1-1.unity
   - Assets/Scenes/lvlClear.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/veeti.koskinen/Documents/SuperMarioBrosClone/Builds/Win10/SuperMarioBrosClone.exe
+  playerPath: C:/Users/veeti.koskinen/Documents/SuperMarioBrosClone/Builds/Win10/x86/SuperMarioBrosClone.exe
