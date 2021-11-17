@@ -80,11 +80,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12778}
     - Class: 114
-      Script: {instanceID: 13026}
+      Script: {instanceID: 13028}
     - Class: 114
-      Script: {instanceID: 13100}
+      Script: {instanceID: 13102}
     - Class: 114
-      Script: {instanceID: 13512}
+      Script: {instanceID: 13514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -141,11 +141,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12794}
     - Class: 114
-      Script: {instanceID: 13100}
+      Script: {instanceID: 13102}
     - Class: 114
-      Script: {instanceID: 13284}
+      Script: {instanceID: 13286}
     - Class: 114
-      Script: {instanceID: 13512}
+      Script: {instanceID: 13514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -214,13 +214,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12854}
     - Class: 114
-      Script: {instanceID: 13100}
+      Script: {instanceID: 13102}
     - Class: 114
-      Script: {instanceID: 13484}
+      Script: {instanceID: 13486}
     - Class: 114
-      Script: {instanceID: 13512}
+      Script: {instanceID: 13514}
     - Class: 114
-      Script: {instanceID: 13560}
+      Script: {instanceID: 13562}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -277,9 +277,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12506}
     - Class: 114
-      Script: {instanceID: 13100}
+      Script: {instanceID: 13102}
     - Class: 114
-      Script: {instanceID: 13512}
+      Script: {instanceID: 13514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1049,4 +1049,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/World1-1.unity
   - Assets/Scenes/lvlClear.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: D:/importatntFiles/UnityProjects/SuperMarioBrosClone/Builds/Win10/x86/SuperMarioBrosClone.exe
+  playerPath: C:/Users/veeti.koskinen/Documents/SuperMarioBrosClone/Builds/win10/x86/SuperMarioBrosClone.exe
