@@ -123,11 +123,11 @@ public class PlayerController : MonoBehaviour
         //Collect score when player collides with object tag "Diamond"
         if (col.gameObject.tag == "Diamond")
         {
+            score++;
             // kasvata pisteitä yhdellä
             Debug.Log("score: " + score);
             txtScore.text = ": " + score; 
             col.gameObject.SetActive(false);
-            score++;
         }
     }
 }
