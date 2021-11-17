@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
 
     //===========SCORE===========
-    public int score = 0;
+    public int score;
     public Text txtScore;
 
     // Start is called before the first frame update
@@ -43,6 +43,11 @@ public class PlayerController : MonoBehaviour
     {
         //===========MOVEMENT===========
         rb = GetComponent<Rigidbody2D>();
+
+        //===========SCORE===========
+        score = 0;
+        txtScore.text = ": " + score;
+
     }
 
     // Update is called once per frame
