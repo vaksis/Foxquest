@@ -15,6 +15,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    Animator m_Animator;
     //===========MOVEMENT===========
     public float speed;
     public float jumpforce;
@@ -48,6 +49,8 @@ public class PlayerController : MonoBehaviour
         score = 0;
         txtScore.text = ": " + score;
 
+        m_Animator = gameObject.GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -60,6 +63,7 @@ public class PlayerController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && extraJumps > 0)
         {
+            m_Animator.SetBool("Jump", true);
             rb.velocity = Vector2.up * jumpforce;
             extraJumps--;
         }
@@ -101,7 +105,34 @@ public class PlayerController : MonoBehaviour
             // tai jos katsotaan oikealle ja painettu vasemmalle
             Flip();
         }
+
+        if (moveInput < 0)
+        {
+            m_Animator.SetBool("Run_Left", true);
+        }
+
+        if (moveInput > 0)
+        {
+            m_Animator.SetBool("Run_Right", true);
+        }
+
+        if (moveInput == 0)
+        {
+            m_Animator.SetBool("Run_Left", false);
+            m_Animator.SetBool("Run_Right", false);
+        }
+
+        if (isGrounded == true && rb.velocity.y == 0)
+        {
+            m_Animator.SetBool("Jump", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && extraJumps > 0)
+        {
+            m_Animator.Play("Base Layer.Jump", -1, 0f);
+        }
     }
+
 
 
     //===========On collision enter 2D===========
