@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2393714360457610483}
   - component: {fileID: 2393714360457610480}
   - component: {fileID: 2393714360457610492}
-  - component: {fileID: 3024525929972056688}
+  - component: {fileID: 5187848152533711350}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -150,13 +150,13 @@ MonoBehaviour:
   moveInput: 0
   extraJumps: 0
   groundCheck: {fileID: 793321322980432225}
-  checkRadius: 0
+  checkRadius: 0.05
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
   score: 0
   txtScore: {fileID: 0}
---- !u!95 &3024525929972056688
+--- !u!95 &5187848152533711350
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
