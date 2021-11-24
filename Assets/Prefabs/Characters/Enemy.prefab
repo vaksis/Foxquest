@@ -147,8 +147,8 @@ MonoBehaviour:
   gamecontroller: {fileID: 0}
   target: {fileID: 0}
   distance: 0
-  agroRange: 5
-  speed: 4
+  agroRange: 6
+  speed: 3
 --- !u!95 &3654235734990534790
 Animator:
   serializedVersion: 3
