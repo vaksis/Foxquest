@@ -11,7 +11,7 @@ The name of this project is subject to change.
 
 1. Clone the repo
 
-  `https://github.com/vaksis/SuperMarioBrosClone.git`
+      `https://github.com/vaksis/SuperMarioBrosClone.git`
   
 2. Make sure you have the right version of unity editor
   The version is `2019.4.18f`
