@@ -84,6 +84,8 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+
+        //if player falls from the map it returns gameover scene
         if (rb.transform.position.y < -10)
         {
             SceneManager.LoadScene("GameOver");
