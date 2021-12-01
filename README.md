@@ -19,5 +19,5 @@ The name of this project is subject to change.
   
 ## Authors
 
-* **Olivia (vaksis)** - *CEO of the project, bug fixes, hosting, code review, and continuing development.* 
+* **Vaksis** - *CEO of the project, bug fixes, hosting, code review, and continuing development.* 
 
