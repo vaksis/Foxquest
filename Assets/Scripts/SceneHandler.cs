@@ -11,6 +11,11 @@ public class SceneHandler : MonoBehaviour
         SceneManager.LoadScene("World1-1");
     }
 
+    public void SecondLevel()
+    {
+        SceneManager.LoadScene("World1-2");
+    }
+
     //==========Application shutdown============
     public void ClickExit()
     {
