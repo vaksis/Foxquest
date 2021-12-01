@@ -33,7 +33,7 @@ public class EnemyController : MonoBehaviour
 
     void Flip()
     {
-        //===========FLIP THE PLAYERMODEL===========
+        //===========FLIP THE MODEL===========
         facingLeft = !facingLeft;
         Vector3 Scaler = transform.localScale;
         Scaler.x = Scaler.x * -1;
