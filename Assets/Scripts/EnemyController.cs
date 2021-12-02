@@ -21,7 +21,6 @@ public class EnemyController : MonoBehaviour
 
     private bool facingLeft = true;
 
-
     private Rigidbody2D rigidbody2D;
 
     void Awake()
