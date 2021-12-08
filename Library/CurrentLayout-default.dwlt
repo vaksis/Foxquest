@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -72,7 +72,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &4
 MonoBehaviour:
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 921, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 96
+  controlID: 221
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 645, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 97
+  controlID: 183
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_MinSize: {x: 645, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 98
+  controlID: 108
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -272,7 +272,7 @@ MonoBehaviour:
   m_MinSize: {x: 333, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 173
+  controlID: 184
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -422,11 +422,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 988
-      height: 629
+      height: 650
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 494, y: 314.5}
+    m_Translation: {x: 494, y: 325}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -434,9 +434,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -494
-      y: -314.5
+      y: -325
       width: 988
-      height: 629
+      height: 650
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 988, y: 650}
@@ -476,21 +476,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a4d4ffff54f6ffff6cf7ffff64fbffff603c000060610000
+      m_ExpandedIDs: b4f6ffffd6f6ffffc8f7ffffccf7ffffd0f7ffffe4f8ffffeaf8ffff64fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: txtScore
-        m_OriginalName: txtScore
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 25200
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -536,9 +536,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 61.428276, y: 34.741272, z: -694.02435}
+    m_Target: {x: 158.2733, y: 225.30771, z: -885.3125}
     speed: 2
-    m_Value: {x: 63.203777, y: 36.85904, z: -693.8097}
+    m_Value: {x: 158.2733, y: 225.30771, z: -885.3125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -588,9 +588,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 56.928764
+    m_Target: 442.3056
     speed: 2
-    m_Value: 59.61127
+    m_Value: 442.3056
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -809,20 +809,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 37
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: 37
   m_LastProjectPath: C:\Users\veeti.koskinen\Documents\SuperMarioBrosClone
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 703b0000
-    m_LastClickedID: 15216
-    m_ExpandedIDs: 00000000303b0000743b000000ca9a3b
+    m_SelectedIDs: a63b0000
+    m_LastClickedID: 15270
+    m_ExpandedIDs: 00000000643b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -850,7 +850,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000303b0000
+    m_ExpandedIDs: 00000000643b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300009a36000018370000c65500005e390000883c0000ee370000d23700003e42000000000000f0f4ffff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
