@@ -38,9 +38,20 @@ public class PlayerController : MonoBehaviour
     public int score;
     public Text txtScore;
 
+    //===========HEALTH===========
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    public HealthBar healthBar;
+
+
     // Start is called before the first frame update
     void Start()
     {
+        //===========HEALTH===========
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
+
         //===========MOVEMENT===========
         rb = GetComponent<Rigidbody2D>();
 
@@ -148,7 +159,11 @@ public class PlayerController : MonoBehaviour
 
         if(col.gameObject.tag == "Enemy")
         {
-            SceneManager.LoadScene("GameOver");
+            TakeDamage(20);
+            if (currentHealth == 0)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
         }
 
 
@@ -161,5 +176,12 @@ public class PlayerController : MonoBehaviour
             txtScore.text = ": " + score; 
             col.gameObject.SetActive(false);
         }
+    }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+
+        healthBar.SetHealth(currentHealth);
     }
 }
