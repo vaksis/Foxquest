@@ -1157,4 +1157,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/lvlClear.unity
   - Assets/Scenes/World1-2.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/veeti.koskinen/Documents/SuperMarioBrosClone/Builds/Win10/x86/SuperMarioBrosClone.exe
+  playerPath: D:/importatntFiles/UnityProjects/SuperMarioBrosClone/Builds/Win10/x86/Version1.0/SuperMarioBrosClone.exe
