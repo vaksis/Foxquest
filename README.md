@@ -1,9 +1,8 @@
 # Fox Quest
 ## Description
 
-School project to make game with unity. 
-This project is called Super Mario Bros clone wich is basically the famous Super Mario Bros on NES, but this is project is using Sunnyland assets. 
-The name of this project is subject to change.
+School project made with unity 2D. 
+This project is called Fox quest. This is project is using Sunnyland assets. 
 
 
 ## Setup
@@ -13,7 +12,7 @@ The name of this project is subject to change.
       `https://github.com/vaksis/SuperMarioBrosClone.git`
   
 2. Make sure you have the right version of unity editor
-  The version is `2019.4.18f`
+  The version is `2022.3.17f1`
   
   
   
