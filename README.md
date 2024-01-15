@@ -1,5 +1,4 @@
-# SuperMarioBrosClone
-
+# Fox Quest
 ## Description
 
 School project to make game with unity. 
