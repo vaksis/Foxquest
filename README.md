@@ -4,6 +4,9 @@
 School project made with unity 2D. 
 This project is called Fox quest. This is project is using Sunnyland assets. 
 
+### Project's future
+Game will continue development. 
+Future plans will be in backlog.
 
 ## Setup
 
